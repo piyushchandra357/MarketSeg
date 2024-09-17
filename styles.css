@@ -1,0 +1,245 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.hero {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-section {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+    margin-bottom: 1rem;
+}
+
+.form-section form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+.form-section form input[type="text"],
+.form-section form input[type="email"],
+.form-section form input[type="password"] {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.form-section form input[type="submit"] {
+    padding: 0.7rem 2rem;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+/* Pricing Section */
+.pricing {
+    background-color: #f9f9f9;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.pricing h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.pricing-tiers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-tier {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pricing-tier:hover {
+    transform: scale(1.05);
+}
+
+.pricing-tier h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.pricing-tier p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.pricing-tier strong {
+    font-size: 2rem;
+    color: #4CAF50;
+}
+
+.pricing-tier ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-tier ul li {
+    margin: 0.5rem 0;
+}
+
+/* Clients Section */
+.clients {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.clients h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.client {
+    width: 20%;
+    margin-bottom: 2rem;
+}
+
+.client img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.client p {
+    font-size: 1rem;
+    color: #333;
+}
+/* Contact Us Section */
+.contact-us {
+    background-color: #f9f9f9;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.contact-us h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.contact-us p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.contact-us a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-us a:hover {
+    text-decoration: underline;
+}
+/* Pricing Disclaimer Section */
+.pricing-disclaimer {
+    background-color: #f4f4f4;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.pricing-disclaimer a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pricing-disclaimer a:hover {
+    text-decoration: underline;
+}
