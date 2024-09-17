@@ -1,10 +1,28 @@
-# Market Segmentation for Electric Vehicles in India
+# Market Segmentation Projects
 
-## Overview
+### 1. Study Share
+
+### 2. EVs in India
+
+## Study Share
+
+Students in higher education frequently encounter significant disparities in the accessibility of
+the study materials, be it a guidebook, or the main study material. The problem lies in the fact
+that the universities make their own curriculum and hence they do not include the whole books,
+except just some pages or chapters from it. So, the students are left relying on their professors
+for  the  study  material.  Since  all  tier-2  and  tier-3  universities  are  not  capable  of  providing
+maintained  course  material  the  students  are  not  provided  with  equal  access  to  the  course
+material or due to the difference in teaching methodologies among different professors. These
+variations  can  result  in  uneven  distribution  of  skill  and  knowledge  on  a  university  scale.
+Nationally, it could prove to be a youth skill issue. StudyShare alleviates these disparities by
+providing a platform for students to access all the study material from their peers in different
+classes, colleges and universities.
+
+## Electric Vehicles in India
 
 This project focuses on analyzing the electric vehicle (EV) market in India. By leveraging various datasets, the goal is to develop a comprehensive market segmentation strategy that can help understand consumer behavior, market dynamics, and identify strategic entry points for EVs.
 
-## Datasets
+### Datasets
 
 The project utilizes the following datasets:
 
